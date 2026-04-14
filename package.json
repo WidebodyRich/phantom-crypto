@@ -1,0 +1,24 @@
+{
+  "name": "phantom-crypto",
+  "version": "1.0.0",
+  "description": "Open source cryptographic layer for Phantom Messenger",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WidebodyRich/phantom-crypto.git"
+  },
+  "dependencies": {
+    "@noble/ciphers": "^1.1.1",
+    "@noble/curves": "^1.7.0",
+    "@noble/hashes": "^1.6.1",
+    "@scure/bip32": "^1.5.0",
+    "bip39": "^3.1.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.0",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "test": "vitest run tests/"
+  }
+}
